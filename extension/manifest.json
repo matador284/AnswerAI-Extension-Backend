@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "AnswerAI - Homework Helper",
+  "version": "1.0",
+  "description": "Selecione qualquer pergunta e obtenha uma resposta instantânea!",
+  "permissions": ["activeTab", "storage", "contextMenus"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
